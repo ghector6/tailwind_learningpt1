@@ -542,7 +542,7 @@ video {
   width: 16rem;
 }
 
-.bg-red-900 {
+.bg-primary {
   --tw-bg-opacity: 1;
-  background-color: rgb(127 29 29 / var(--tw-bg-opacity));
+  background-color: rgb(204 45 74 / var(--tw-bg-opacity));
 }
