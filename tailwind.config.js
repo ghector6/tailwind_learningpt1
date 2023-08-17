@@ -20,6 +20,18 @@ module.exports = {
               'chicago': "url('../img/chicago.jpg')",
               'europe': "url('../img/europe.jpg')",
             },
+            backgroundColor: theme => ({
+              ...theme('colors'),
+              'primary': '#CC2D4A',
+              'secondary': '#FFED4A',
+              'terciary': '#FFED4A',
+            }),
+            textColor: {
+              'primary': '#CC2D4A',
+              'secondary': '#FFED4A',
+              'terciary': '#FFED4A',
+            },
+
           },
         },
     plugins: [],
