@@ -2,6 +2,11 @@
 module.exports = {
     content: ["./public/index.html", "./src/**/*.{html,js}"],
     theme: {
+      colors: {
+        'primary':"#CC2D4A",
+        'secondary':"#8FA206",
+        'tertiary':"#61AEC9",
+      },
           extend: {
             backgroundImage: {
               'sanFrancisco': "url('../img/sanFrancisco.jpg')",
@@ -20,12 +25,12 @@ module.exports = {
               'chicago': "url('../img/chicago.jpg')",
               'europe': "url('../img/europe.jpg')",
             },
-            backgroundColor: theme => ({
-              ...theme('colors'),
-              'primary': '#CC2D4A',
-              'secondary': '#FFED4A',
-              'terciary': '#FFED4A',
-            }),
+            //backgroundColor: theme => ({
+            //  ...theme('colors'),
+            //  'primary': '#CC2D4A',
+            //  'secondary': '#8FA206',
+            //  'terciary': '#FFED4A',
+            //}),
             textColor: {
               'primary': '#CC2D4A',
               'secondary': '#FFED4A',
