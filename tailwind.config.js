@@ -7,6 +7,9 @@ module.exports = {
         'secondary':"#8FA206",
         'tertiary':"#61AEC9",
       },
+      fontFamily: {
+        Montserrat: ['Montserrat', 'sans-serif'],
+      },
           extend: {
             backgroundImage: {
               'sanFrancisco': "url('../img/sanFrancisco.jpg')",
